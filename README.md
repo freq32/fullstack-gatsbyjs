@@ -41,10 +41,10 @@ Otherwise you can directly download it clicking on download button on this repos
 
 Go inside `fullstack-gatsbyjs/` directory and run the following command:
 
-`npm install` to install modules
-`gatsby develop` to start the development (live browser update)
-`gatsby build` generate the deplyment in `public` directory
-`npm run deploy` deploy your app via FTP `EDIT deploy.js (config section)`
+- `npm install` to install modules
+- `gatsby develop` to start the development (live browser update)
+- `gatsby build` generate the deplyment in `public` directory
+- `npm run deploy` deploy your app via FTP `EDIT deploy.js (config section)`
 
 ### Open the source code and start editing!
 
