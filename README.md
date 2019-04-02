@@ -1,6 +1,6 @@
-# FullStack Gatsby Bulma Stater
+# Full Stack Gatsby Bulma Starter
 
-> A Quick Way to bootstrap your next Gatsby + Bulma site.
+> A Quick Way to bootstrap your next Gatsby + Bulma site. Inspired by [this](https://github.com/amandeepmittal/gatsby-bulma-quickstart) starter
 
 ![ss](https://i.imgur.com/Vz81GEl.png)
 
@@ -29,7 +29,7 @@
 
 You need npm and Gatsby CLI installed on your development machine.
 
-### 1. Clone the repository/Installation
+### Clone the repository/Installation
 
 If you have Git installed on your system you can run the following command:
 
@@ -37,14 +37,16 @@ If you have Git installed on your system you can run the following command:
 
 Otherwise you can directly download it clicking on download button on this repository.
 
-### 2. Running in development mode
+### Running in development mode
 
 Go inside `fullstack-gatsbyjs/` directory and run the following command:
 
-`npm install`
-`gatsby develop`
+`npm install` to install modules
+`gatsby develop` to start the development (live browser update)
+`gatsby build` generate the deplyment in `public` directory
+`npm run deploy` deploy your app via FTP `EDIT deploy.js (config section)`
 
-### 3. Open the source code and start editing!
+### Open the source code and start editing!
 
 The site is now running at
 [http://localhost:8000](http://localhost:8000).
@@ -52,7 +54,7 @@ The site is now running at
 Open `fullstack-gatsbyjs/` directory in your code editor of choice and edit it. 
 Save your changes and the changes will be reflected in the browser without manual refresh!
 
-### 4. Add your own Google Analytics Id
+### Add your own Google Analytics Id
 
 Once you have google-analytics tracking id for your site, you can configure in `gatsby-config.js` file:
 
@@ -66,10 +68,28 @@ resolve: `gatsby-plugin-google-analytics`,
   }
 ```
 
-## Support 
+### Configure FTP deployment 
+
+Edit `deploy.js` file:
+
+```js
+var config = {
+    user: "YOUR_USER_HERE",                   // NOTE that this was username in 1.x 
+    password: "YOUR_PASS_HERE",           // optional, prompted if none given
+    host: "YOUR_FTP_SERVER_HERE",
+    port: 21,
+    localRoot: __dirname + '/public',
+    remoteRoot: '/',
+    include: ['*', '**/*'],      // this would upload everything except dot files
+    //include: ['*.php', 'dist/*'],
+    exclude: ['dist/**/*.map'],     // e.g. exclude sourcemaps - ** exclude: [] if nothing to exclude **
+    deleteRemote: false,              // delete ALL existing files at destination before uploading, if true
+    forcePasv: false                 // Passive mode is forced (EPSV command is not sent)
+}
+```
 
 ## Support
-Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
+Open a new issuehere. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
 ---
 Made with ♥ by [AppSeed.us]("https://appseed.us")
