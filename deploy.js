@@ -2,9 +2,9 @@ var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
  
 var config = {
-    user: "fullstackguest@fullstack-gatsbyjs.appseed.us",                   // NOTE that this was username in 1.x 
-    password: "qrZs4Ae19wbq88775544",           // optional, prompted if none given
-    host: "ftp.appseed.us",
+    user: "XXXXXXXXXXXXXXXXXX",     // NOTE that this was username in 1.x 
+    password: "YYYYYYYYYYYYY",                         // optional, prompted if none given
+    host: "ZZZZZZZZZZZZZZ",
     port: 21,
     localRoot: __dirname + '/public',
     remoteRoot: '/',

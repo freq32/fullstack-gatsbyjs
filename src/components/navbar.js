@@ -12,7 +12,7 @@ const Navbar = () => (
 				<div className="navbar-brand">
 					<a
 						className="navbar-item"
-						href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs/README.md"
+						href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs"
 					>
 						<img src={gatsbyLogo} alt="GatsbyJS Logo - Full Stack App by @AppSeed.us" />
 						<img src={bulmaLogo} alt="Bulma Logo - Full Stack App by @AppSeed.us" />
@@ -23,7 +23,7 @@ const Navbar = () => (
 						<span className="navbar-item">
 							<a
 								className="button is-success is-inverted"
-								href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs/README.md"
+								href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs"
 							>
 								<span className="icon">
 									<FaGithub size="fa-1x" />

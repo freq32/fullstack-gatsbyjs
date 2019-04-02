@@ -22,13 +22,13 @@ const Footer = () => (
 		render={data => (
 			<footer className="footer center has-background-light">
 				<div className="content has-text-centered">
-					<p className="is-size-4">
-						Full Stack Web App
+					<p className="is-size-5">
+						Full Stack App in Gatsby and Bulma
 					</p>
 					<p className="is-size-5">
-						Provided By <a target="_blank" rel="noopener noreferrer" href="https://appseed.us">AppSeed</a> (@webappseed) using{' '}
-						<a href={data.site.siteMetadata.gatsby}>Gatsby</a> +{' '}
-						<a href={data.site.siteMetadata.bulma}>Bulma</a>
+						Provided By <a target="_blank" rel="noopener noreferrer" href="https://appseed.us">AppSeed</a>, more info:{' '}
+						<a href="https://blog.appseed.us">blog</a>{' & '} 
+						<a href="https://docs.appseed.us">docs</a>  
 					</p>
 					<article className="media center">
 						<span className="icon">

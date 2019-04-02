@@ -7,7 +7,7 @@ module.exports = {
 		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
 		facebook: 'https://facebook.com/webappseed',
 		twitter: 'https://twitter.com/webappseed', 
-		github: `https://github.com/rosoftdeveloper/`,
+		github: `https://github.com/rosoftdeveloper/fullstack-gatsbyjs`,
 		medium: 'https://medium.com/@appseed.us',
 		gatsby: 'https://www.gatsbyjs.org/',
 		bulma: 'https://bulma.io/',
@@ -41,7 +41,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
-				trackingId: 'UA-XXXXXXXX-X',
+				trackingId: 'UA-XXXXXX-1',
 				// Setting this parameter is optional (requried for some countries such as Germany)
 				anonymize: true
 			}
