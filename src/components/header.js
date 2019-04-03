@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
 
 import './style.scss';
 
@@ -29,9 +28,9 @@ const Header = ({ siteTitle }) => (
 								Full-Stack Gatsby / Bulma   
 							</h1>
 							<p className="subtitle has-text-white is-size-3">
-								<a className="has-text-black is-italic" href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs">Open-Source</a>,{' '}
-								<a className="has-text-danger is-italic" href="https://developers.google.com/speed/pagespeed/insights/?url=https://fullstack-gatsbyjs.appseed.us&tab=desktop">Fast as hell</a>,{' '} 
-								<a className="has-text-black is-italic" href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs/blob/master/deploy.js">FTP Deploy Script</a>  
+								<a target="_blank" rel="noopener noreferrer" className="has-text-black is-italic" href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs">Open-Source</a>,{' '}
+								<a target="_blank" rel="noopener noreferrer" className="has-text-danger is-italic" href="https://developers.google.com/speed/pagespeed/insights/?url=https://fullstack-gatsbyjs.appseed.us&tab=desktop">Fast as hell</a>,{' '} 
+								<a target="_blank" rel="noopener noreferrer" className="has-text-black is-italic" href="https://github.com/rosoftdeveloper/fullstack-gatsbyjs/blob/master/deploy.js">FTP Deploy Script</a>  
 							</p>
 						</div>
 					</div>
