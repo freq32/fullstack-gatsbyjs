@@ -2,7 +2,7 @@
 
 > A Quick Way to bootstrap your next Gatsby + Bulma site. Inspired by [this](https://github.com/amandeepmittal/gatsby-bulma-quickstart) starter
 
-![ss](https://i.imgur.com/Vz81GEl.png)
+![ss](https://static.appseed.us/misc/thumb-gatsby-bulma.png)
 
 ## Demo 💯
 
